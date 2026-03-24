@@ -62,7 +62,7 @@ with col1:
     use_gpu = st.checkbox("Use GPU if available", value=False)
     device_str = "cuda" if (use_gpu and torch.cuda.is_available()) else "cpu"
 
-    model_path = model.pth
+    model_path = "model.pth"
 
 
 # ---------------------------
