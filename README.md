@@ -1,18 +1,20 @@
-🍅Tomato Leaf Disease Detection
+# 🍅 Tomato Leaf Disease Detection
 
-This Streamlit application identifies diseases in tomato leaves using a deep learning model. It allows users to upload an image of a leaf and receive predictions along with useful insights.
+A Streamlit app that detects diseases in tomato leaves using a deep learning model.  
+Upload a leaf image and the app will predict the disease, show how severe it is, and suggest possible treatments.
 
-Features:
--Upload an image of a tomato leaf
--Predict the type of disease
--Display an infection severity mask
--Provide treatment recommendations
--Getting Started
+## Features
 
-To run the application locally:
+- Upload a tomato leaf image  
+- Get disease prediction  
+- View infection severity mask  
+- See basic treatment suggestions  
 
-    pip install -r requirements.txt
-    streamlit run app.py
+## Run locally
 
-Model Setup
-Place the trained model file in the project’s root directory before running the app.
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+## Model
+Keep the trained model file in the same folder as app.py before running the app.
